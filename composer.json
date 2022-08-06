@@ -23,7 +23,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.0 || ^8.0",
+        "php": "^8.0",
         "christian-riesen/base32": "1.6.0"
     }
 }
