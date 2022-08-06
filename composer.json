@@ -1,0 +1,29 @@
+{
+    "name": "sprayingluck/authenticator",
+    "description": "A package that provide TOTP authentication.",
+    "homepage": "https://github.com/sprayingluck/authenticator",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "sprayingluck",
+        "authentication",
+        "totp",
+        "authenticator"
+    ],
+    "autoload": {
+        "psr-4": {
+            "SprayingLuck\\Authenticator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SprayingLuck",
+            "email": "sprayingluck@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0 || ^8.0",
+        "christian-riesen/base32": "1.6.0"
+    }
+}
